@@ -1,0 +1,10 @@
+mongoduo --uri "<atlas cluster uri>".
+exports data in bson format
+
+mongoexport --uri "<atlas cluster uri>".
+            --collections <collection name>
+            --out=<filename>.json
+export data in json format.
+
+uri= uniform resource identifier.
+eg: collection=sales --out=sales.json
